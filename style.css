@@ -1,0 +1,49 @@
+body {
+  background-image: url("pink-7761356_1280.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff8fc5;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-style: italic;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #f885c8;
+
+}
+li:last-child {
+    border-right: none;
+}
+
+li a {
+  display: block;
+  color: rgb(109, 26, 67);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+li a:hover {
+  background-color: #ff51a2;
+}
+
+.text{
+
+  padding:20px;
+  margin-top:30px;
+  height:1500px;
+  font-style: italic;
+  color: rgb(109, 26, 67);
+}
